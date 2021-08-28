@@ -10,14 +10,14 @@
 
 {
     "ui/button": {
-        "scope": "",
-        "version": "",
+        "scope": "marcelino-borges.mfe-test",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "src/ui/button"
     },
     "ui/card": {
-        "scope": "",
-        "version": "",
+        "scope": "marcelino-borges.mfe-test",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "src/ui/card"
     },

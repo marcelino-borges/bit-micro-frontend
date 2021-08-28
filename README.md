@@ -21,3 +21,11 @@
 
 1. `bit start` para rodar no browser ou;
 2. `bit compile` para ver erros em componentes sem precisar rodar o workspace.
+
+## Versionando os componentes
+
+- `bit tag --all --message="first version" para usar mesma tag em todos os componentes;
+
+## Exportando os componentes
+
+- `bit export`
