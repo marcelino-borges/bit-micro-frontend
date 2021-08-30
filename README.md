@@ -1,6 +1,22 @@
-Project to test Bit ecosystem, aiming to create a micro front-end application with shared components.
+Project to test/study Bit ecosystem, aiming to create a micro front-end application with shared components.
 
-## Installing BVM, BIT and setting enviroment
+## What is Bit?
+* Bit is a platform that provides a whole infrastructure or ecosystem which allows that different teams to collaborate in a single project, using micro front-end architecture. 
+
+## What is micro front-end?
+* Micro front-end is an architecture similiar to micro services, that is the approach where the engineering splits the a supposed monolith application/service into small repositories, categorized by business domains. 
+* The same way we can make micro services aiming each domain, we can make micro front-ends aiming each domain.
+* This kind of architecture benefits agile projects and teams in a special way. Like so we can have different teams working a individual parts of the same application without worrying about getting stuck trying to sync the commit and merge of features into a large repository, waiting an ethernity the monolithic front-end CI/CD.
+* This way we only need to have a wrapping project that will put together all the micro front-ends components.
+
+## And there we have Bit a super useful tool!
+* We just need to install Bit's npm packages and let it make its magic! 
+* For each micro front-end, we can have a bit repo containing all the components for a certain domain. After we finish our components, we export them to Bit's cloud (private or public, depending on our plan) and later on we import these exported components from the cloud repo into the wrapping project.
+
+## Front-end stack
+* Here the most recommended (by Bit) is ReactJS, using Typescript.
+
+## Installing BVM (Bit Version Manager), Bit and setting the enviroment
 
 1. `npm i @teambit/bvm -g`;
 2. `bvm install`; e
